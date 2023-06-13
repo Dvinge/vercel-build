@@ -1,0 +1,9 @@
+{
+    "git": {
+      "deploymentEnabled": false
+    },
+    "framework": "nextjs",
+    "buildCommand": "yarn build:web",
+    "installCommand": "yarn install --frozen-lockfile",
+    "outputDirectory": "apps/web/.next"
+  }

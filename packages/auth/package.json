@@ -1,0 +1,27 @@
+{
+  "name": "auth",
+  "version": "0.0.1",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "test:unit": "vitest run"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^8.0.1",
+    "config": "*",
+    "ts-node": "^10.9.1",
+    "tsconfig": "*",
+    "typescript": "^4.9.3",
+    "vitest": "^0.31.0"
+  },
+  "dependencies": {
+    "@sentry/nextjs": "^7.23.0",
+    "api": "*",
+    "jsonwebtoken": "^9.0.0",
+    "next": "^13.4.1",
+    "next-auth": "^4.20.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.19.1"
+  }
+}
